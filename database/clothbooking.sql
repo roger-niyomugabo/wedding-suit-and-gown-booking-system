@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2021 at 11:22 PM
+-- Generation Time: Dec 06, 2021 at 04:35 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -70,13 +70,14 @@ CREATE TABLE `clothes` (
 
 INSERT INTO `clothes` (`clothes_id`, `clothes_type`, `clothes_image`, `clothes_description`, `clothes_price`) VALUES
 (12, 'suit', 'one.jpeg', 'suit designed by tanga designers				  				  ', '205.00'),
-(13, 'moshions', 'France.jpg', 'wedding gowns from italy designed by roger		  				  ', '7600.00'),
+(13, 'moshions', '3333.jpg', 'wedding gowns from italy designed by roger		  				  ', '7600.00'),
 (15, 'suit', 'image6.jpg', 'the suit 				  \r\n				  ', '50000.00'),
-(17, 'Italian Suit', 'Italy.jpg', 'this is an suit that was originary created in Italy				  \r\n				  ', '34.00'),
+(17, 'Italian Suit', '111.jpg', 'this is an suit that was originary created in Italy				  				  ', '34.00'),
 (18, 'italian gown ', 'white.jpg', 'The best wedding gown from Italy				  \r\n				  ', '120.00'),
-(20, 'black suit', 'bwown.jpg', 'black suit from south africa	designed by tanga design		 	  				  ', '202.00'),
-(21, 'black suit', 'France.jpg', 'black Suit designed by best awarded designers in France designers			  				  ', '200.00'),
-(22, 'black suit', 'one.jpeg', 'black Suit designed by best awarded designers in France designers			  				  ', '200.00');
+(20, 'black suit', '5555.jpg', 'black suit from south africa	designed by tanga design		 	  				  ', '207.00'),
+(21, 'black suit', '22222.jpeg', 'black Suit designed by best awarded designers in France designers			  				  ', '250.00'),
+(22, 'black suit', 'one.jpeg', 'black Suit designed by best awarded designers in France designers			  				  ', '200.00'),
+(23, 'Germany suit', '44444.jpg', 'Suit from Germany designed by kros				  \r\n				  ', '5210.00');
 
 -- --------------------------------------------------------
 
@@ -103,7 +104,10 @@ INSERT INTO `customers` (`customer_id`, `customer_name`, `customer_email`, `cust
 (1, 'roger', 'roger@gmail.com', '07857647', 'kigali', 'roger', '123', '123'),
 (2, 'sadiki', 'sadiki@gmail.com', '078676747', 'huye', 'sadiki', '12345', 'female'),
 (3, 'sadiki2', 'sadiki@gmail.com', '078676747', 'huye', 'sadiki2', '12345', 'female'),
-(4, 'benitha iyuyisenga ', 'benitha@gmail.com', '0784345354', 'huye', 'benitha1', '123', 'female');
+(4, 'benitha iyuyisenga ', 'benitha@gmail.com', '0784345354', 'huye', 'benitha1', '123', 'female'),
+(5, 'rosine Karanganwa', 'rosine@gmail.com', '0786644664', 'kigali', 'rosineka', '12345', 'female'),
+(6, 'sandrine ishimwe', 'sandoishimwe6@gmail.com', '079686757', 'rubavu', 'sando', '1009', 'female'),
+(7, 'Renzaho emmy', 'renzo@yahoo.fr', '0737438475', 'muhanga', 'renzo1', '1785', 'male');
 
 -- --------------------------------------------------------
 
@@ -169,13 +173,13 @@ ALTER TABLE `booking`
 -- AUTO_INCREMENT for table `clothes`
 --
 ALTER TABLE `clothes`
-  MODIFY `clothes_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `clothes_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `customer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `managers`

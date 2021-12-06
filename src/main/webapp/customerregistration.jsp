@@ -14,6 +14,36 @@
 
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index2.jsp"><b>Home </b><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><b>services</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer"><b>About us</b></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="log.jsp"><b>Admin</b></a>
+      </li>
+      
+     <!--  <li class="nav-item">
+        <a class="nav-link disabled" href="#">Admin</a>
+      </li> -->
+    </ul>
+    
+  </div>
+</nav>
   <form action="Registeringcustomers" method ="post">
   
 
@@ -109,7 +139,7 @@
 <Style>
   
   body{
-		background-color: #25274d;
+		background-color: transparent;
 	}
 	.contact{
 		padding: 4%;
@@ -135,6 +165,8 @@
 		padding: 3%;
 		border-top-right-radius: 0.5rem;
 		border-bottom-right-radius: 0.5rem;
+		   background-color: rgba(0,0,0,0.1); /* Black background with opacity */
+  z-index: 2; 
 	}
 	.contact-form label{
 		font-weight:600;

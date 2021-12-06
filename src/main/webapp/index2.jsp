@@ -170,6 +170,7 @@ resultSet = statement.executeQuery(sql);
 while(resultSet.next()){
 %>
           <div class="col-lg-4">
+          
             <div class="card">
               <img
                 src="images/<%=resultSet.getString("clothes_image") %>"
@@ -178,6 +179,7 @@ while(resultSet.next()){
               />
               <div class="card-body">
                 <h5 class="card-title"><%=resultSet.getString("clothes_type") %></h5>
+                <h5 class="card-title"><%=resultSet.getString("clothes_price") %> $</h5>
                 <p class="card-text">
                   <%=resultSet.getString("clothes_description") %>
                 </p>
@@ -390,6 +392,10 @@ function topFunction() {
   body{
 		background-color:transparent;
 		
+	}
+	card-img-top{
+	height:30%;
+	width:50%;
 	}
 
 </Style>
