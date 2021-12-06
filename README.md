@@ -1,7 +1,7 @@
 # wedding-suit-and-gown-booking-system
 
 Wedding suit and gown booking system is a system about booking suits and gowns as the name specifies, It has mainly two users(customer and manager),This system will allow 
-customers to book the gowns or suits they prefer where customer has to create account (if he/she does'nt have an account) and specify the date he/she want to book that cloth,
+customers to book the gowns or suits(obtained from database to home page) they prefer where customer has to create account (if he/she does'nt have an account) and specify the date he/she want to book that cloth,
 
 And the Administator or manager 
 -Can add new clothes
